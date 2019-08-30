@@ -1,0 +1,80 @@
+<adfilter>
+<version>2.0</version>
+<urlrules id="3401" notify="0">
+<name><![CDATA[河北联通强制广告]]></name>
+<desc><![CDATA[屏蔽河北联通宽带用户的强制广告，包括弹窗、浮动广告、DNS提示。]]></desc>
+<author><![CDATA[朽木]]></author>
+
+<urlrule domain="http://hbinfo10.cnc114dns.com.cn/">
+<includeurls><![CDATA[http://*.cnc114dns.com.cn/*]]></includeurls>
+<excludeurls><![CDATA[]]></excludeurls>
+</urlrule>
+
+<urlrule domain="http://hbdns10.cncmax.cn/">
+<includeurls><![CDATA[http://*.cncmax.cn/*]]></includeurls>
+<excludeurls><![CDATA[]]></excludeurls>
+</urlrule>
+
+<urlrule domain="http://hbdnserror4.wo.com.cn/">
+<includeurls><![CDATA[http://hbdnserror1.wo.com.cn/*]]></includeurls>
+<includeurls><![CDATA[http://hbdnserror2.wo.com.cn/*]]></includeurls>
+<includeurls><![CDATA[http://hbdnserror3.wo.com.cn/*]]></includeurls>
+<includeurls><![CDATA[http://hbdnserror4.wo.com.cn/*]]></includeurls>
+<includeurls><![CDATA[http://hbdnserror5.wo.com.cn/*]]></includeurls>
+<includeurls><![CDATA[http://hbdnserror6.wo.com.cn/*]]></includeurls>
+<includeurls><![CDATA[http://hbdnserror7.wo.com.cn/*]]></includeurls>
+<includeurls><![CDATA[http://hbdnserror8.wo.com.cn/*]]></includeurls>
+<includeurls><![CDATA[http://hbdnserror9.wo.com.cn/*]]></includeurls>
+<includeurls><![CDATA[http://hbdnserror10.wo.com.cn/*]]></includeurls>
+<includeurls><![CDATA[http://hbdnserror1.wo.com.cn:8080/*]]></includeurls>
+<includeurls><![CDATA[http://hbdnserror2.wo.com.cn:8080/*]]></includeurls>
+<includeurls><![CDATA[http://hbdnserror3.wo.com.cn:8080/*]]></includeurls>
+<includeurls><![CDATA[http://hbdnserror4.wo.com.cn:8080/*]]></includeurls>
+<includeurls><![CDATA[http://hbdnserror5.wo.com.cn:8080/*]]></includeurls>
+<includeurls><![CDATA[http://hbdnserror6.wo.com.cn:8080/*]]></includeurls>
+<includeurls><![CDATA[http://hbdnserror7.wo.com.cn:8080/*]]></includeurls>
+<includeurls><![CDATA[http://hbdnserror8.wo.com.cn:8080/*]]></includeurls>
+<includeurls><![CDATA[http://hbdnserror9.wo.com.cn:8080/*]]></includeurls>
+<includeurls><![CDATA[http://hbdnserror10.wo.com.cn:8080/*]]></includeurls>
+<excludeurls><![CDATA[]]></excludeurls>
+</urlrule>
+
+<urlrule domain="http://ashow.pcpop.com/">
+<includeurls><![CDATA[http://ashow.pcpop.com/admin/north_b.html]]></includeurls>
+<includeurls><![CDATA[http://ashow.pcpop.com/*]]></includeurls>
+<excludeurls><![CDATA[]]></excludeurls>
+</urlrule>
+
+<urlrule domain="http://coc.pagebelt.com/">
+<includeurls><![CDATA[http://coc.pagebelt.com/*]]></includeurls>
+<excludeurls><![CDATA[]]></excludeurls>
+</urlrule>
+
+<urlrule domain="http://focus.inhe.net/">
+<includeurls><![CDATA[http://focus.inhe.net/tuisong/*]]></includeurls>
+<excludeurls><![CDATA[]]></excludeurls>
+</urlrule>
+
+<urlrule domain="http://221.193.206.100/">
+<includeurls><![CDATA[http://221.193.206.100/PASV/*]]></includeurls>
+<includeurls><![CDATA[http://221.193.206.100/static/*]]></includeurls>
+<includeurls><![CDATA[http://221.193.206.100/static/FloatingContent/*]]></includeurls>
+<includeurls><![CDATA[http://221.193.206.100/*]]></includeurls>
+<excludeurls><![CDATA[]]></excludeurls>
+</urlrule>
+
+<urlrule domain="http://221.193.206.101/">
+<includeurls><![CDATA[http://221.193.206.101/PASV/*]]></includeurls>
+<includeurls><![CDATA[http://221.193.206.101/static/*]]></includeurls>
+<includeurls><![CDATA[http://221.193.206.101/static/FloatingContent/*]]></includeurls>
+<includeurls><![CDATA[http://221.193.206.101/*]]></includeurls>
+<excludeurls><![CDATA[]]></excludeurls>
+</urlrule>
+
+<urlrule domain="http://www.inhe.net/">
+<includeurls><![CDATA[http://www.inhe.net/zxc/*]]></includeurls>
+<excludeurls><![CDATA[]]></excludeurls>
+</urlrule>
+
+</urlrules>
+</adfilter>
